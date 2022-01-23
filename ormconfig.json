@@ -1,0 +1,15 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "root",
+  "database": "psycho",
+  "synchronize": false,
+  "logging": false,
+  "entities": ["src/DataBases/entities/*.ts"],
+  "migrations": ["src/DataBases/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "src/DataBases/migrations"
+  }
+}
